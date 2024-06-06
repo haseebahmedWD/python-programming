@@ -1,0 +1,10 @@
+x = 5
+print("x =",x," its datatype is",type(x))
+x = 3.7
+print("x =",x," its datatype is",type(x))
+x = True
+print("x =",x," its datatype is",type(x))
+x = "Hello"
+print("x =",x," its datatype is",type(x))
+x = 3 + 4j
+print("x =",x," its datatype is",type(x))
