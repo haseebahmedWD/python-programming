@@ -14,12 +14,12 @@ print("3 // 4 = ", 3//4)
 print("3.0 // 4.0 = ", 3.0//4.0)
 
 #logical operators examples
-print("seeta" or "geeta")
+print("seeta" or "geeta")   #any non empty string is always true and vice versa
 print("seeta" and "geeta")
 print(0 and 5)
 print(0 or 5)
 
-#assignment of multiple variables
+#assignment of multiple variables   
 e,f,g = 10,55,100
 print("Values of e f g = ",e,f,g)
 
