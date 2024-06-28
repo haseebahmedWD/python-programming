@@ -1,7 +1,7 @@
 import math
 
-comp = complex(input("Enter a complex number: "))
-if(comp.real > comp.imag):
-    print("num real: ",comp.real)
+c = complex(input("Enter a complex number: "))
+if(c.real > c.imag):
+    print(c.real,">",c.imag)
 else:
-    print("num imaginary: ",comp.imag)
+    print(c.imag,">",c.real)
