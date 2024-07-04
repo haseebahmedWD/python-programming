@@ -31,6 +31,6 @@ l1.append(30)
 print("after appending: ",l1)
 
 #insert()
-l1.insert(1,90)
+l1.insert(1,90)     #(index,value)
 l1.insert(50,140)
 print(l1)
