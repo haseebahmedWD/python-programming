@@ -12,7 +12,6 @@ print('\n')
 for x in l2:
     print(x,end=' ')
 print('\n')
-
 #negative indexing
 print(l1)
 print("l1[0]=",l1[0], "l1[-5]=", l1[-5])
@@ -20,17 +19,17 @@ print("l1[1]=",l1[1], "l1[-4]=", l1[-4])
 print("l1[2]=",l1[2], "l1[-3]=", l1[-3])
 print("l1[3]=",l1[3], "l1[-2]=", l1[-2])
 print("l1[4]=",l1[4], "l1[-1]=", l1[-1])
-
+print('\n')
 #deleting a value
 print(l1)
 del l1[2]
 print("after deleting l1[2]: ",l1)
-
+print('\n')
 #append()
 l1.append(30)
 print("after appending: ",l1)
-
+print('\n')
 #insert()
-l1.insert(1,90)     #(index,value)
-l1.insert(50,140)
+l1.insert(1,90)
+l1.insert(50,140)   #element will be inserted at last index
 print(l1)
