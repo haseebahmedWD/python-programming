@@ -1,4 +1,4 @@
-#list is a iterable which is mutable. It can grow. It can contain hetrogenous/multiple data type values
+#list is a iterable which is mutable. It can grow. It can contain heterogenous/multiple data type values
 
 l1 = [10,20,30,40,50]
 l2 = [True,10,44.5,3+4j,'hello']

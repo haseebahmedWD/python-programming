@@ -1,4 +1,4 @@
-#range is a interator which is immutable mean its value cannot change
+#range is a iterator which is immutable mean its value cannot change
 # we traverse range from start to end
 # it contains Only integer values
 #write a program to print square of natural numbers using range
