@@ -36,7 +36,7 @@ print("'e' come in string ",s1.count('e'), 'times')
 print("'blank space' come in string ",s1.count(' '), 'times')
 print('\n')
 
-#starswith()
+#startswith()
 s1 = "Mysirg Education Service"
 print(s1)
 print('string start with "My":',s1.startswith('My'))
@@ -103,7 +103,7 @@ print("Join with '-': ", strobj.join(s1),'\n')
 
 print("Join with '/': ", '/'.join(s1),'\n')
 
-#Exp: Take input with comma seperate integers, split them, sum them!
+#Exp: Take input with whitespace seperate integers, split them, sum them!
 s1 = (input("Enter numbers with space seperation: "))
 print(s1)
 #spliting

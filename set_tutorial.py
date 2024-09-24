@@ -1,18 +1,18 @@
 #set is a class
 #set is mutable
 #set cannot have duplicate values
-#set cannot have values in sequential order like other itrabels(List,string,range)
+#set cannot have values in sequential order like other iterables(List,string,range)
 #set cannot have indexing
 #set cannot have slicing operator
 
 #creating a set
 s1 = {10,20,30,40,50,}
 print("set: ",s1)
-s1 = {}
+s1 = {} #it is not an empty set it is type dict
 print("set {} = ",s1,type(s1))
 print('\n')
 
-s1 = set()
+s1 = set()  #it is empty set
 print('s1 = set()',type(s1))
 print('It is empty set')
 print('\n')
